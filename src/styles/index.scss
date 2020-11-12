@@ -3,3 +3,37 @@ body{
     background-color: black;
     color:white;
 }
+// Nav-Header
+
+.nav{
+    width:100%;
+    display:flex;
+    color:black;
+    background-color:white;
+    justify-content: space-between;
+}
+.heading{
+    font-size: larger;
+    font-weight: bolder;
+}
+.nav-wrap{
+    
+   justify-content: space-around;
+   flex-direction: row;
+
+}
+.nav-list{
+    display:flex;
+    list-style-type: none;
+    justify-content: space-around;
+}
+.nav-item{
+    display:inline;
+    padding:0 12px 0 12px;
+
+}
+.nav-item:hover{
+    background-color: black;
+    color:white;
+  
+}

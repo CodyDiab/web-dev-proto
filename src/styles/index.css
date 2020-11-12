@@ -3,4 +3,49 @@ body {
   background-color: black;
   color: white;
 }
+
+.nav {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: black;
+  background-color: white;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.heading {
+  font-size: larger;
+  font-weight: bolder;
+}
+
+.nav-wrap {
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.nav-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style-type: none;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.nav-item {
+  display: inline;
+  padding: 0 12px 0 12px;
+}
+
+.nav-item:hover {
+  background-color: black;
+  color: white;
+}
 /*# sourceMappingURL=index.css.map */
