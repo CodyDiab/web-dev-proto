@@ -54,5 +54,12 @@ body{
 }
 .section1,.section2,.section3{
     color:black;
-    display:block;
+    display:flex;
+    
+    
+}
+.about-image{
+    width:50%;
+    height:auto;
+    background-image: url(../assets/Place-Holder.jpg.jpg);
 }

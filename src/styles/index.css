@@ -68,6 +68,14 @@ body {
 
 .section1, .section2, .section3 {
   color: black;
-  display: block;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.about-image {
+  width: 50%;
+  height: auto;
+  background-image: url(../assets/Place-Holder.jpg.jpg);
 }
 /*# sourceMappingURL=index.css.map */
