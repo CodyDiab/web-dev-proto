@@ -6,7 +6,7 @@ function Header() {
     return(
         <div className="nav">
             <h1 className="heading">Title</h1>
-            <wrapper className="nav-wrap">
+            <section className="nav-wrap">
                 <ul className="nav-list">
                     <li className="nav-item">
                         nav item 1
@@ -22,7 +22,7 @@ function Header() {
                     </li>
                     
                 </ul>
-            </wrapper>
+            </section>
         </div>
     )
 }
