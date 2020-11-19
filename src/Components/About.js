@@ -13,6 +13,7 @@ function About(){
             <Button onClick={()=> setDisplay(2)}>Two</Button>
             <Button onClick={()=> setDisplay(3)}>Three</Button>
        </ButtonGroup>
+       <div className="about-wrapper">
             <section className={display === 1?'section1':'sectionInactive'}>
                 <div className="about-image"></div>
                 <p>Sunt officia anim consequat sint dolor. Cillum aliquip anim aute id minim in adipisicing aute laborum ipsum. Occaecat consectetur ad exercitation anim dolor amet velit in pariatur dolor. Nostrud deserunt consequat eiusmod amet tempor eiusmod est laborum officia exercitation nisi ea. Proident et Lorem Lorem amet ad sunt duis et esse veniam. Sit consectetur officia sit adipisicing reprehenderit proident. Laborum ea fugiat aliqua esse occaecat aute et irure in amet elit.</p>
@@ -25,6 +26,7 @@ function About(){
                 <div className="about-image"></div>
                 <p>Sunt officia anim consequat sint dolor. Cillum aliquip anim aute id minim in adipisicing aute laborum ipsum. Occaecat consectetur ad exercitation anim dolor amet velit in pariatur dolor. Nostrud deserunt consequat eiusmod amet tempor eiusmod est laborum officia exercitation nisi ea. Proident et Lorem Lorem amet ad sunt duis et esse veniam. Sit consectetur officia sit adipisicing reprehenderit proident. Laborum ea fugiat aliqua esse occaecat aute et irure in amet elit.</p>
             </section>
+            </div>
         </div>
     )
 }
