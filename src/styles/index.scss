@@ -61,6 +61,14 @@ body{
     margin-left:45%;
     margin-right: auto;
     width: 40%;
+   
+}
+.about--button{
+    color:black;
+    border-color: black;
+}
+.active{
+    background-color: rgba(26, 25, 25, 0.076);
 }
 .about-wrapper{
     display: flex;
@@ -88,4 +96,20 @@ body{
     background-position: center;
    width:50%;
     background-image: url(../assets/Place-Holder.jpg.jpg);
+}
+
+.footer{
+    width:100%;
+    background-color: white;
+
+}
+.footer--items{
+    display:flex;
+    justify-content: flex-end;
+    align-items: center;
+    a{
+      margin:5px;
+      color:black;
+      
+    }
 }

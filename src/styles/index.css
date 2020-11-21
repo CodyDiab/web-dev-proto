@@ -74,6 +74,15 @@ body {
   width: 40%;
 }
 
+.about--button {
+  color: black;
+  border-color: black;
+}
+
+.active {
+  background-color: rgba(26, 25, 25, 0.076);
+}
+
 .about-wrapper {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -106,5 +115,27 @@ body {
   background-position: center;
   width: 50%;
   background-image: url(../assets/Place-Holder.jpg.jpg);
+}
+
+.footer {
+  width: 100%;
+  background-color: white;
+}
+
+.footer--items {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.footer--items a {
+  margin: 5px;
+  color: black;
 }
 /*# sourceMappingURL=index.css.map */

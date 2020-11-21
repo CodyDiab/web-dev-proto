@@ -9,9 +9,9 @@ function About(){
     return(
         <div className="about-container">
         <ButtonGroup className="about-btns" variant="text" color="primary" aria-label="text primary button group">
-            <Button onClick={()=> setDisplay(1)}>One</Button>
-            <Button onClick={()=> setDisplay(2)}>Two</Button>
-            <Button onClick={()=> setDisplay(3)}>Three</Button>
+            <Button className={display === 1?'about--button active':'about--button'} onClick={()=> setDisplay(1)}>One</Button>
+            <Button className={display === 2?'about--button active':'about--button'} onClick={()=> setDisplay(2)}>Two</Button>
+            <Button className={display === 3?'about--button active':'about--button'} onClick={()=> setDisplay(3)}>Three</Button>
        </ButtonGroup>
        <div className="about-wrapper">
             <section className={display === 1?'section1':'sectionInactive'}>
